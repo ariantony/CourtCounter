@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+//fungsi untuk display Team A
+
     public void aTigaPoint (View view) {
         display_a (quantity_a + 3);
     }
@@ -25,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     public void aFreePoint (View view) {
         display_a (quantity_a + 1);
     }
- //
+//fungsi untuk display Team B
     public void bTigaPoint (View view) {
         display_b (quantity_b + 3);
     }

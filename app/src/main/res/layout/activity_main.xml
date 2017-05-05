@@ -22,11 +22,11 @@
         />
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="2">
             <TextView
@@ -78,7 +78,7 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="1sp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="#e7e7e7"
             android:layout_weight="0">
@@ -88,7 +88,7 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="2">
             <TextView
@@ -140,5 +140,19 @@
                 android:layout_margin="5sp"/>
         </LinearLayout>
     </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reset"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:padding="10sp"
+            android:background="#ffd500"
+            android:layout_marginTop="50sp"/>
+    </LinearLayout>
 </LinearLayout>
